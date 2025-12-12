@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/earthway-website/static/css/main.606df6b1.css",
-    "main.js": "/earthway-website/static/js/main.6bd0a30d.js",
-    "static/js/453.41907e59.chunk.js": "/earthway-website/static/js/453.41907e59.chunk.js",
-    "index.html": "/earthway-website/index.html",
-    "main.606df6b1.css.map": "/earthway-website/static/css/main.606df6b1.css.map",
-    "main.6bd0a30d.js.map": "/earthway-website/static/js/main.6bd0a30d.js.map",
-    "453.41907e59.chunk.js.map": "/earthway-website/static/js/453.41907e59.chunk.js.map"
+    "main.css": "/static/css/main.606df6b1.css",
+    "main.js": "/static/js/main.14818229.js",
+    "static/js/453.41907e59.chunk.js": "/static/js/453.41907e59.chunk.js",
+    "index.html": "/index.html",
+    "main.606df6b1.css.map": "/static/css/main.606df6b1.css.map",
+    "main.14818229.js.map": "/static/js/main.14818229.js.map",
+    "453.41907e59.chunk.js.map": "/static/js/453.41907e59.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.606df6b1.css",
-    "static/js/main.6bd0a30d.js"
+    "static/js/main.14818229.js"
   ]
 }
