@@ -2,7 +2,7 @@
   "name": "earthway-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://v-a-m-c.github.io/earthway-website",
+  "homepage": "https://v-a-m-c.github.io",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
