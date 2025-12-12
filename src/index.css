@@ -51,3 +51,21 @@ html {
 /* Make lists tighter on dark section */
 .pattern-bg ul li{margin-bottom:.5rem}
 
+/* Video and overlay for hero */
+.hero-video{
+	position:absolute;
+	inset:0;
+	width:100%;
+	height:100%;
+	object-fit:cover;
+	z-index:0;
+	pointer-events:none;
+}
+.hero-overlay{
+	position:absolute;
+	inset:0;
+	background:linear-gradient(180deg, rgba(2,6,23,0.35) 0%, rgba(2,6,23,0.45) 100%);
+	z-index:1;
+	pointer-events:none;
+}
+

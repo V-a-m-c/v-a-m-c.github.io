@@ -3,8 +3,12 @@ import React from "react";
 const Hero = () => {
   return (
     <section className="relative overflow-hidden py-24">
-      <div className="max-w-6xl mx-auto px-6 text-center relative">
-        <div className="rounded-2xl bg-gradient-to-r from-sky-600 to-indigo-600 text-white p-12 shadow-2xl lg:pr-56">
+      {/* Background video - place Construction.mp4 in public/assets/Construction.mp4 */}
+      <video className="hero-video" src="/assets/Construction.mp4" autoPlay muted loop playsInline />
+      <div className="hero-overlay" aria-hidden="true" />
+
+      <div className="max-w-6xl mx-auto px-6 text-center relative z-10">
+        <div className="rounded-2xl bg-transparent text-white p-12 shadow-2xl lg:pr-56" style={{textShadow: '0 6px 18px rgba(0,0,0,0.6)'}}>
           <h2 className="text-4xl md:text-5xl font-extrabold mb-4">Professional Construction Services</h2>
           <p className="text-lg md:text-xl mb-6 opacity-95">Precision in every project — from planning to execution.</p>
           <div className="flex justify-center">
